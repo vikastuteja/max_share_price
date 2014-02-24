@@ -34,7 +34,7 @@ def max_share_price():
 import unittest
 class max_share_price_unit_test(unittest.TestCase):
     def setUp(self):
-      # the expected result i as follows
+      # the expected result is as follows
       self.max_share_price_dict = {'Company D': ['2000', ' May', 56], 'Company A': ['2011', ' Jun', 150], 'Company B': ['2012', ' Aug', 16], 'Company C': ['1990', ' Jan', 201]}
 
     def test_max_share_price(self):
